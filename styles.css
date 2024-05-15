@@ -1,1 +1,64 @@
+/* styles.css */
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #222;
+    color: #fff;
+}
+
+/* Welcome Message Styling */
+.welcome-message {
+    text-align: center;
+    padding: 100px 0;
+}
+
+.welcome-message h1 {
+    font-size: 3em;
+}
+
+.welcome-message p {
+    font-size: 1.2em;
+}
+
+/* Navigation Options Styling */
+.options {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+.option {
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    transition: transform 0.3s ease;
+}
+
+.option:hover {
+    transform: translateY(-5px);
+}
+
+.option img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.option h2 {
+    font-size: 1.5em;
+}
+
+/* Section Styling */
+.section {
+    height: 100vh;
+    padding: 50px 0;
+    text-align: center;
+}
+
+/* Placeholder styling for additional sections */
+/* Add more specific styling as needed */
 
